@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat","serif";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: "Montserrat","serif";
+    font-weight: bolder;
+    font-size: 55px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+.container-fluid{
+    padding: 4% 15% 7%;
+}
+.navbar{
+    padding: 0 0 40px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border-radius: 10%;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family: "Montserrat-light";
+    color: whitesmoke;
+}
+
+.download-button{
+    margin: 5% 3% 0 0;
+}
+
+.pic1{
+    position: absolute;
+    width: 75%;
+    margin-top: 50px;
+    border-radius: 6%;
+    transform: rotate(15deg);
+    right: 20%;
+}
+
+.icons{
+    color: tomato;
+    font-size: 100px;
+    margin: 0px 40px 20px 40px;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+
+.testimonial-text{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+#features{
+    padding: 200px 180px;
+    text-align: center;
+    color: grey;
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+hr{
+    border-style: dotted none none none;
+    width: 10%;
+    border-color: tomato;
+    border-width: 15px;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    height: 600px;
+}
+
+.testimonial-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 40px 30px 0 0;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 40px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 8% 15%;
+    text-align: center;
+}
+
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px)  {
+    #title{
+        text-align: center;
+    }
+    .pic1{
+    position: static;
+    transform: rotate(0);
+    width: 300px;
+    height: 400px;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    
+}
+
+.final{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.final-button{
+    margin: 0 20px 55px;
+    padding: 1% 2%;
+}
+
+#footer{
+    text-align: center;
+    padding: 3rem;
+    color: grey;
+    padding: 7% 15%;
+}
+.last{
+    font-size: 20px;
+    margin: 30px 20px 40px;
+    color: black;
+}
+}
